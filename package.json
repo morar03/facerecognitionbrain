@@ -1,6 +1,5 @@
 {
   "name": "facerecognitionbrain",
-  "homepage": "https://morar03.github.io/facerecognitionbrain",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
