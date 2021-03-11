@@ -89,7 +89,7 @@ class App extends Component {
         this.setState({imageURL: this.state.input});
         
         // I used the ID for the Face Detection Model
-        fetch('https://polar-wave-89422.herokuapp.com//imageurl',{
+        fetch('https://polar-wave-89422.herokuapp.com/imageurl',{
           method: 'post',
           headers: {'Content-Type' : 'application/json'},
           body: JSON.stringify({
